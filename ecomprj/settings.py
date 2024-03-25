@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -128,3 +129,10 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+JAZZMIN_SETTINGS={
+    'site_brand':"Desphixs Shop",
+    # 'site_brand':"You order we deliver",
+    'site_logo':'assets\images\icons\image.png',
+    'copyright':"desphixs_shop.com",
+}
